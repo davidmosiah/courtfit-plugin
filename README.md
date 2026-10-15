@@ -4,6 +4,8 @@
 
 Plan adult strength work around tennis, understand an exercise, or adapt a session to your available time and equipment. CourtFit provides 200 anatomical exercise references with English, Portuguese and Spanish teaching, native dose units and exact video links from a verified pinned catalog source.
 
+Public plugin source: [davidmosiah/courtfit-plugin](https://github.com/davidmosiah/courtfit-plugin). Product website: [courtfit.app](https://courtfit.app). This repository contains only the plugin package; public source availability does not establish marketplace approval or installation.
+
 The server checks confirmed equipment, supports, capabilities, experience, match timing and modeled session duration. It does not access the CourtFit iPhone app, Apple Health, purchases or past workouts, and it does not synchronize plans. This catalog is a pinned source snapshot; it is not a claim about the catalog in the currently released iPhone app.
 
 ## Setup and use
@@ -38,4 +40,4 @@ The connected server processes structured exercise/session fields in memory with
 
 `catalog-reference.json` records all 200 IDs, localized names, exact doses, eligibility and hash-addressed media mappings for audit. Runtime search remains authoritative; the skill must not substitute a stale local catalog for server results. `catalog-provenance.json` identifies the source snapshots and hashes. No MP4/JPG files, native app code, credentials, app bindings or deployment configuration are included.
 
-The original plugin code and documentation listed in [LICENSE](LICENSE) are MIT licensed. See [rights notice](RIGHTS.md) for the explicit branding, catalog, provenance and media exclusions. Distribution remains gated on host verification, privacy alignment and the owner's public release approval.
+The original plugin code and documentation listed in [LICENSE](LICENSE) are MIT licensed. See [rights notice](RIGHTS.md) for the explicit branding, catalog, provenance and media exclusions. The owner authorized this separate public plugin repository and marketplace submission. The multi-host privacy policy is live in English, Portuguese and Spanish. Publisher application/terms, review and actual marketplace installation remain separate steps; public source and private-host QA are not marketplace approval.
