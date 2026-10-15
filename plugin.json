@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "courtfit",
+  "version": "2.0.0",
+  "description": "Adult tennis strength education with 200 anatomical exercise references and exact video links, in English, Portuguese and Spanish.",
+  "author": {
+    "name": "David Batista",
+    "email": "support@courtfit.app",
+    "url": "https://courtfit.app"
+  },
+  "homepage": "https://plugin.courtfit.app",
+  "license": "MIT",
+  "keywords": ["tennis", "strength", "exercise", "anatomy"],
+  "extensions": {
+    "com.courtfit": {
+      "displayName": "CourtFit",
+      "icon": "assets/icon.png",
+      "listing": "listing.json"
+    }
+  }
+}

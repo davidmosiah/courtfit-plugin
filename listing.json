@@ -1,0 +1,21 @@
+{
+  "displayName": "CourtFit",
+  "icon": "assets/icon.png",
+  "locales": {
+    "en": {
+      "subtitle": "Strength for your tennis week",
+      "description": "Plan adult strength around tennis, understand a movement or adapt a session to your time and confirmed equipment. Explore 200 anatomical exercise references with exact video links and teaching in English, Portuguese and Spanish. Sessions preserve native units and sides and check equipment, capabilities and estimated time. Interactive video depends on host support; useful text and video links remain available. No iPhone records, Apple Health, subscriptions, history access or plan sync. General fitness education; no diagnosis, rehabilitation or medical clearance.",
+      "examplePrompt": "Explain the goblet squat and show its anatomical video."
+    },
+    "pt": {
+      "subtitle": "Força para sua semana de tênis",
+      "description": "Organize a força de adultos em torno do tênis, entenda um movimento ou adapte uma sessão ao tempo e equipamento confirmado. Explore 200 referências anatômicas com links exatos de vídeo e orientações em português, espanhol e inglês. Sessões preservam unidades e lados e verificam equipamento, capacidades e duração estimada. Vídeo interativo depende do host; texto e links continuam disponíveis. Sem acesso a registros do iPhone, Apple Health, assinaturas, histórico ou sincronização de planos. Educação física geral; sem diagnóstico, reabilitação ou liberação médica.",
+      "examplePrompt": "Explique o agachamento goblet e mostre seu vídeo anatômico."
+    },
+    "es": {
+      "subtitle": "Fuerza para tu semana de tenis",
+      "description": "Organiza la fuerza de adultos alrededor del tenis, entiende un movimiento o adapta una sesión al tiempo y equipo confirmado. Explora 200 referencias anatómicas con enlaces exactos de vídeo e indicaciones en español, portugués e inglés. Las sesiones conservan unidades y lados y comprueban equipo, capacidades y tiempo estimado. El vídeo interactivo depende del host; el texto y los enlaces siguen disponibles. Sin acceso a registros del iPhone, Apple Health, suscripciones, historial o sincronización. Educación física general; sin diagnóstico, rehabilitación ni autorización médica.",
+      "examplePrompt": "Explícame la sentadilla goblet y muéstrame su vídeo anatómico."
+    }
+  }
+}

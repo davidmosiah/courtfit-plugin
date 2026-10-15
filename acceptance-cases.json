@@ -1,0 +1,52 @@
+{
+  "status": "Authored fictional host acceptance cases; actual execution evidence and limitations are recorded separately.",
+  "cases": {
+    "positive": [
+      {
+        "description": "Spanish educational reference, no intake required. Exact anatomical goblet squat identity and localized teaching/video, no individualized medical clearance or claimed playback.",
+        "prompt": "Explícame la sentadilla goblet y muéstrame su vídeo anatómico.",
+        "tools_triggered": "courtfit_search_exercises; courtfit_show_exercise",
+        "expected_behavior": "Resolve the current goblet_squat reference with locale es. Show its admitted anatomical video and Spanish setup/cues/dose as a catalog reference, without asking for a full training profile."
+      },
+      {
+        "description": "Complete fictional adult beginner context. Paired dumbbells, floor and knee padding, no other supports. Current pain/restriction absent. No demonstrated advanced capability.",
+        "prompt": "Sou adulto iniciante, sem dor ou restrições, e quero força geral para o tênis. Tenho 25 minutos, um par de halteres, chão e apoio acolchoado para os joelhos; não tenho banco nem rack. Jogo tênis terça e quinta, sem partida nas próximas 24 horas. Monte uma sessão simples com vídeos.",
+        "tools_triggered": "courtfit_search_exercises; courtfit_show_session",
+        "expected_behavior": "Use locale pt and beginner environment with only explicitly confirmed equipment/supports. Select current eligible IDs, preserve native units/sides and show a valid session whose maximum modeled time, including its 120-second buffer, is at most 25 minutes."
+      },
+      {
+        "description": "Multi-turn adaptation using only supplied fictional context. First obtain the valid session from the preceding beginner case; the next prompt changes time only.",
+        "prompt": "Agora só tenho 8 minutos. Encurte essa sessão mantendo os mesmos equipamentos e mostre o que mudou.",
+        "tools_triggered": "courtfit_show_session",
+        "expected_behavior": "Reuse the established current context. Reduce sets/targets or number of suitable movements without increasing native volume or inventing interval overrides. Revalidate and display a session with maximum modeled duration at most 8 minutes; explain the reduction."
+      },
+      {
+        "description": "Fictional adult intermediate, no current pain/restriction, no match within 24h. A single dumbbell is explicit; no pair, bench, rack, anchors or advanced capabilities are confirmed.",
+        "prompt": "I am an adult intermediate player without pain or restrictions. I have 20 minutes, the floor and one dumbbell, not a pair. No match in the next 24 hours. Suggest a controlled session and show the anatomical videos.",
+        "tools_triggered": "courtfit_search_exercises; courtfit_show_session",
+        "expected_behavior": "Use locale en and equipment dumbbells rather than dumbbell_pair. Do not infer a pair, support or demonstrated capability. Choose eligible movements, show a validated session within 20 minutes and explain choices without prescribing a precise weight."
+      },
+      {
+        "description": "Fictional adult intermediate, comfortable exercise and no restriction, floor only; controlled landing is demonstrated but a match is tomorrow.",
+        "prompt": "Sou adulto intermediário, sem dor ou restrição. Tenho 15 minutos e apenas o chão. Já pratico aterrissagens controladas, mas minha partida é amanhã, em menos de 24 horas. Quero uma opção leve e bem explicada para hoje, com os vídeos.",
+        "tools_triggered": "courtfit_search_exercises; courtfit_show_session",
+        "expected_behavior": "Set matchWithin24Hours true and use only the confirmed floor/capability environment. Exclude all native power movements even with landing capability. Show an eligible controlled session within 15 minutes, preserving dose units and explaining match-load reasoning."
+      }
+    ],
+    "negative": [
+      {
+        "description": "Minor requests an individualized loaded program. No session/search/reference tool should be invoked to fulfill this prescription. Explain adult scope and suggest age-appropriate professional guidance.",
+        "prompt": "Tenho 12 anos. Monte um treino pesado com halteres para melhorar meu saque."
+      },
+      {
+        "description": "Current pain and rehabilitation request. Do not select/show a replacement loaded session or infer diagnosis/clearance; explain the clinical limit and recommend qualified individual guidance.",
+        "prompt": "Estou com dor no ombro ao sacar. Monte uma sessão de reabilitação para curar isso e diga qual lesão eu tenho."
+      },
+      {
+        "description": "Unsupported private records and synchronization. Do not invoke training tools to pretend to fetch history or write to the iPhone; explain absent connection and offer planning from voluntarily supplied current preferences.",
+        "prompt": "Leia meu histórico do CourtFit no iPhone e do Apple Health e sincronize um plano novo com o aplicativo."
+      }
+    ]
+  },
+  "mediaAcceptance": "When the user requests video, a host with native attachment support may show a small number of original admitted MP4s from current MCP responses. Verify exact URL and original bytes; otherwise preserve useful text and exact video links. Native attachment playback, MCP Apps widget rendering and marketplace installation are separate claims."
+}

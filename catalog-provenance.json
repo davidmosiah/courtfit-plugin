@@ -1,0 +1,23 @@
+{
+  "catalogVersion": "anatomical-200-v2",
+  "exerciseCount": 200,
+  "anatomicalVideoCount": 200,
+  "nativeContentDigest": "cd16d7fc96f6ee6f68627a8b1d44c7ee6cf075b15adb44240ebf0ae1914cea8d",
+  "sources": {
+    "scripts/data/courtfit-native-anatomical-200.json": "42e336c3ea34fdc4411eb3d086037ca2d99aa7bbf300e3255f5c0935f63b85b3",
+    "plugins/courtfit-mcp-server/data/catalog.json": "36ca4d29ec0a88321525d327e841181974e0a60ec1580d5268cfaa05ea8a97a0",
+    "plugins/courtfit-mcp-server/data/provenance.json": "572cd3ea99f7ea8131d2b56dff3b2f4b7849764cd1b256e729e0d45789f5084f",
+    "scripts/data/courtfit-plugin-anatomical-media.json": "24d32345083e3e6b2b4dc5772d36cb2ea12c967dcc940af40b4c56b854ceff6d"
+  },
+  "serverOrigin": "https://plugin.courtfit.app",
+  "mediaBundled": false,
+  "sourceScope": "Verified pinned native source; not a statement about the currently shipped iPhone version.",
+  "mediaRights": {
+    "confirmationType": "owner-attested",
+    "confirmedAt": "2026-10-15",
+    "scope": "Public Grok Bot/Cursor display and streaming of the 200 anatomical videos",
+    "ownerStatement": "Sim, também cobre Grok Bot/Cursor",
+    "excluded": "Redistribution of media bytes, sublicensing, realistic/generated/related variation references",
+    "previousConfirmation": "Pinned server provenance retains the 2026-10-07 ChatGPT display/streaming confirmation."
+  }
+}
